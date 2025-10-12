@@ -5,7 +5,7 @@
  */
 var commonFactors = function(a, b) {
     let n = Math.max(a,b);
-    let i = 0 ;
+    let i = 1 ;
     let result = [];
     while(n>=i){
         if(a%i=== 0 && b%i === 0){
